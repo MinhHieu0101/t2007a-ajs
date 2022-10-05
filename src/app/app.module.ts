@@ -6,7 +6,7 @@ import {ClassromComponent} from "./classsrom/classrom.component";
 import {SinhvienComponent} from "./sinh vien/sinhvien.component";
 import {TeacherComponent} from "./teacher/teacher.component";
 import {LoginComponent} from "./login&register/login.component";
-import {RegisterComponent} from "./register.component/register.component";
+import {RegisterComponent} from "./login&register/register.component";
 import {RouterModule, Routes} from "@angular/router";
 import {ThoitietComponent} from "./thoitiet/thoitiet.component";
 import {HttpClientModule} from "@angular/common/http";
