@@ -3,9 +3,14 @@
 <h2>Nhiệt Độ : {{temp}} <sup>o</sup>C</h2>
 <h2>Độ ẩm: {{hump}}<sup>%</sup></h2>
 <h3>Áp Suất: {{press}}</h3>
-<button type="button" onclick="hanoi()">Hà Nội</button>
-<button type="button" onclick="tphcm()">TP HCM</button>
-<button type="button" onclick="tokyo()">Tokyo</button>
-<button type="button" onclick="london()">London</button>
-<button type="button" onclick="newyork()">New York</button>
-<button type="button" onclick="berlin()">Berlin</button>
+<a routerLink="thoitiet" (click)="hanoi()"></a>
+
+<button routerLink="thoitiet" (click)="hanoi()">Hà Nội</button>
+<button routerLink="thoitiet" (click)="tphcm()">TP HCM</button>
+<button routerLink="thoitiet" (click)="london()">London</button>
+<button routerLink="thoitiet" (click)="newyork()">New York</button>
+<button routerLink="thoitiet" (click)="tokyo()">Tokyo</button>
+<button routerLink="thoitiet" (click)="berlin()">Berlin</button>
+
+
+

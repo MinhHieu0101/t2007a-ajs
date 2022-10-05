@@ -15,6 +15,7 @@ const appRoutes: Routes =[
   {path:'',component:LoginComponent},
   {path:'register',component:RegisterComponent},
   {path:'thoitiet',component:ThoitietComponent},
+
 ]
 @NgModule({
   declarations: [
