@@ -5,11 +5,12 @@ import { AppComponent } from './app.component';
 import {ClassromComponent} from "./classsrom/classrom.component";
 import {SinhvienComponent} from "./sinh vien/sinhvien.component";
 import {TeacherComponent} from "./teacher/teacher.component";
-import {LoginComponent} from "./login&register/login.component";
-import {RegisterComponent} from "./login&register/register.component";
+import {LoginComponent} from "./login&register&thoitiet/login.component";
+import {RegisterComponent} from "./login&register&thoitiet/register.component";
 import {RouterModule, Routes} from "@angular/router";
-import {ThoitietComponent} from "./thoitiet/thoitiet.component";
+import {ThoitietComponent} from "./login&register&thoitiet/thoitiet.component";
 import {HttpClientModule} from "@angular/common/http";
+import {MenuComponent} from "./Menu/menu.component";
 
 const appRoutes: Routes =[
   {path:'',component:LoginComponent},
@@ -19,7 +20,8 @@ const appRoutes: Routes =[
 ]
 @NgModule({
   declarations: [
-    AppComponent,ClassromComponent,SinhvienComponent,TeacherComponent,LoginComponent,RegisterComponent,ThoitietComponent
+    AppComponent,ClassromComponent,SinhvienComponent,TeacherComponent,LoginComponent,RegisterComponent,ThoitietComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,RouterModule.forRoot(appRoutes),HttpClientModule

@@ -1,10 +1,13 @@
-
+<div class="login-box">
+  <div class="header">
+<a routerLink="/" class="btn btn-primary m-2">Login</a>
+<a routerLink="/register" class="btn btn-warning">Register</a>
+<a routerLink="/thoitiet" class="btn btn-warning">Weather</a>
+  </div>
 <h1>{{city}}</h1>
 <h2>Nhiệt Độ : {{temp}} <sup>o</sup>C</h2>
 <h2>Độ ẩm: {{hump}}<sup>%</sup></h2>
 <h3>Áp Suất: {{press}}</h3>
-<a routerLink="thoitiet" (click)="hanoi()"></a>
-
 <button routerLink="thoitiet" (click)="hanoi()">Hà Nội</button>
 <button routerLink="thoitiet" (click)="tphcm()">TP HCM</button>
 <button routerLink="thoitiet" (click)="london()">London</button>
